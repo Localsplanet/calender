@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rails3FullcalendarDemo</title>
+   
+
+   <%= stylesheet_link_tag    "fullcalendar", :media => "all" %>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "jquery" %>
+  <%= javascript_include_tag "jquery.rest" %>
+  <%= javascript_include_tag "rails" %>
+  <%= javascript_include_tag "application" %>
+
+  <%= javascript_include_tag "jquery-ui-1.8.11.custom.min" %>
+  <%= javascript_include_tag "fullcalendar" %>
+  <%= javascript_include_tag "calendar" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
